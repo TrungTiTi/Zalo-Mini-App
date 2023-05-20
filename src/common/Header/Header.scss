@@ -1,0 +1,26 @@
+.show-back {
+  padding-top: 48px;
+}
+.header {
+  padding: 8px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  background-color: rgb(112, 163, 246);
+  .header-icon {
+    border-radius: 30%;
+    // background-color: bisque;
+    width: fit-content;
+    .zaui-icon {
+      width: 24px;
+      &:hover {
+        cursor: pointer;
+        color: rgb(27, 28, 29);
+      }
+    }
+    span {
+      margin-left: 12px;
+    }
+  }
+}

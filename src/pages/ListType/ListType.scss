@@ -1,0 +1,20 @@
+.list-type-footer {
+  position: fixed;
+  bottom: 72px;
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  .footer-item {
+    div {
+      display: flex;
+      align-items: center;
+      img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.page-intro {
+  overflow: hidden;
+  .carousel {
+    .carousel-one {
+      display: flex;
+      flex-direction: column;
+    }
+    .carousel-box {
+      width: 50%;
+      div {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .intro-header {
+    width: 100%;
+    height: 40%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.ml-50 {
+  margin-left: -50%;
+}
